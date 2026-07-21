@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://Viyozc.github.io/mockly-ai//sitemap.xml
