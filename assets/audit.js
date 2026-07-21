@@ -7,6 +7,18 @@
 (function () {
   "use strict";
 
+
+  // ---- centralized audit counter (fire-and-forget) ----
+  var COUNTER_NS = "mockly-ai";
+  function trackAudit() {
+    try {
+      fetch("https://api.counterapi.dev/v1/" + COUNTER_NS + "/audit_completed/up", {
+        method: "GET",
+        mode: "cors",
+        cache: "no-store"
+      });
+    } catch (e) {}
+  }
   var form = document.getElementById("auditForm");
   var result = document.getElementById("auditResult");
   var heroScore = document.getElementById("heroScore");
@@ -166,6 +178,7 @@
       quality: document.getElementById("fQuality").value
     });
     render(res);
+    trackAudit();
   });
 
   // hero demo score (static illustrative until user runs audit)
