@@ -1,0 +1,19 @@
+# Mockly
+
+> Mockly scores your e-commerce / POD product images like a buyer's thumb does — image count, lifestyle vs flat ratio, marketplace compliance, template-clone risk, and conversion readiness. Free 0–100 audit, no signup.
+
+Canonical host: https://mockly.aiyes.space
+
+## Core pages
+
+- [Home](https://mockly.aiyes.space/)
+
+## Blog
+
+- [Print-on-Demand Mockups: How They Drive Clicks and Sales](https://mockly.aiyes.space/blog/)
+- [Best Mockups for Etsy POD: What Actually Converts](https://mockly.aiyes.space/blog/best-mockups-etsy/)
+
+## Canonical discovery
+
+- [Sitemap](https://mockly.aiyes.space/sitemap.xml)
+- [Robots](https://mockly.aiyes.space/robots.txt)
